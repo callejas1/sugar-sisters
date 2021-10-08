@@ -1,0 +1,99 @@
+main {
+  min-height: 80vh;
+}
+
+.navbar {
+  height: 6rem;
+  background: #fff;
+  color: #000;
+}
+
+.home-heading {
+  margin: 8rem 0rem 3rem 0rem;
+}
+
+.jumbotron-intro {
+  min-height: 65vh;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.social-icons a i:hover{
+  transform: scale(1.1);
+}
+
+.social-icons a i{
+  margin: 1rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  transition: .5s;
+}
+
+.fa-tiktok{
+  color: #000000;
+  text-shadow: 0 0 15px #fff;
+}
+
+.fa-instagram{
+  color: #e23670;
+  text-shadow: 0 0 15px #fff;
+}
+
+.fa-facebook{
+  color: #456cba;
+  text-shadow: 0 0 15px #fff;
+}
+
+address a[href^="tel"]{
+  text-decoration: none;
+}
+
+.footer-wrapper {
+  margin: 6rem 0rem 0rem;
+  padding: 2rem;
+  min-height: 10vh;
+  background: #fff;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-wrapper:before,
+.footer-wrapper:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 75%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.footer-wrapper:before {
+  top: 0;
+  transform: skewY(-4deg);
+  transform-origin: 0% 0;
+}
+
+.footer-wrapper:after {
+  bottom: 0;
+  transform: skewY(0deg);
+  transform-origin: 100%;
+}
+
+
+
+.footer-bottom {
+  background: #fff;
+  
+}
+
+.github-link, .github-link:visited, .github-link:link {
+  /* color: #EC7FAE; */
+  text-decoration: none;
+}
