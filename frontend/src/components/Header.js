@@ -4,29 +4,27 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function Header() {
   return (
-    <header>
-      <Navbar expand="lg" className="navbar">
-        <Container>
-          <LinkContainer to="/">
-            <Navbar.Brand>SugarSisters</Navbar.Brand>
-          </LinkContainer>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <LinkContainer to="/">
-                <Nav.Link>Inicio</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/producto">
-                <Nav.Link>Productos</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/contacto">
-                <Nav.Link>Contacto</Nav.Link>
-              </LinkContainer>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </header>
+    <Navbar expand="lg" className="navbar">
+      <Container>
+        <LinkContainer to="/">
+          <Navbar.Brand>SugarSisters</Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <LinkContainer to="/">
+              <Nav.Link>Inicio</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/producto">
+              <Nav.Link>Productos</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/contacto">
+              <Nav.Link>Contacto</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 };
 

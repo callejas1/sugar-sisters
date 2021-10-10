@@ -26,12 +26,9 @@ const Footer = () => {
               <a href="tel:+50664584519">&#128241; 6458-4519</a>
             </address>
           </Col>
-          {/* <Col xs={12} sm={12} md={6} lg={4}>
-            <h6>Some text</h6>
-          </Col> */}
         </Row>
         <Row>
-          <Col className='text-center'>
+          <Col className='text-center mt-4'>
             <h6>Copyright &copy; SugarSisters {getCurrentYear()} | Made with &#10084;&#65039; by <a className="github-link" href="https://github.com/callejas1" target="_blank" rel="noopener noreferrer">callejas1</a></h6>
           </Col>
         </Row>
